@@ -13,4 +13,4 @@ COPY . .
 
 # expose the port 4000 as the flask server will listen on port 4000
 EXPOSE 7000
-
+CMD python3 flaskserver.py
