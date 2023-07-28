@@ -6,7 +6,7 @@ app = Flask(__name__)
 # add all the routes
 @app.route("/", methods=["GET"])
 def root():
-    return "welcome to v1 python flask app"
+    return "welcome to v2 python flask app"
 
 
 # run the application
